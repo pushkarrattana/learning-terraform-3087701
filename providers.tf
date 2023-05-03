@@ -1,11 +1,8 @@
 terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
+    b1ddi = {
+      version = "0.1"
+      source  = "infobloxopen/b1ddi"
     }
   }
-}
-
-provider "aws" {
-  region  = "us-west-2"
 }
